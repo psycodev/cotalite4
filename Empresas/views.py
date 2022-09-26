@@ -42,4 +42,4 @@ def updateemp(request, nit):
             form.save()
             print("Modificaicon exitosa")
         return redirect("http://127.0.0.1:8000/empresas/listar/")
-    return render(request, 'registrar.html', {'form':form}) 
+    return render(request, 'visualizarEmpresa-Contalite.html', {'form':form}) 
